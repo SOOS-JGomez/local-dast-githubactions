@@ -1,3 +1,5 @@
+name: SOOS DAST GitHub Actions
+
 on: [push]
 
 jobs:
