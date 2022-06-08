@@ -1,7 +1,7 @@
 on: [push]
 
 jobs:
-  soos_dast_baseline_analysis:
+  soos_dast_analysis_example:
     name: SOOS DAST Baseline Analysis
     runs-on: ubuntu-latest
     steps:
