@@ -18,7 +18,7 @@ jobs:
           target_url: "https://brokencrystals.com/"
           outputFormat: "sarif"
           sarifDestination: "SOOS-JGomez/local-dast-githubactions"
-     - name: Upload SOOS DAST Report
+      - name: Upload SOOS DAST Report
         uses: github/codeql-action/upload-sarif@v2
         with:
           sarif_file: results.sarif
