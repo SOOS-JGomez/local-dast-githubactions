@@ -3,6 +3,17 @@ name: SOOS DAST GitHub Actions
 on: [push]
 
 jobs:
+  synchronous-analysis-with-blocking-result:
+    name: SOOS SCA Scan
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: Run SOOS - Scan for vulnerabilities
+      uses: soos-io/soos-sca-github-action@v1.0.4
+      with:
+        project_name: "sca-githubactions-local-test"
+        client_id: ${{ secrets.SOOS_CLIENT_ID }}
+        api_key: ${{ secrets.SOOS_API_KEY }}
   soos_dast_baseline_analysis:
     name: SOOS DAST Baseline Analysis
     runs-on: ubuntu-latest
