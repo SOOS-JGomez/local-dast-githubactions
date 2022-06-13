@@ -9,7 +9,7 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - name: Run SOOS - Scan for vulnerabilities
-      uses: soos-io/soos-sca-github-action@v1.0.4
+      uses: soos-io/soos-sca-github-action@v1.1.0
       with:
         project_name: "sca-githubactions-local-test"
         api_url: "https://qa-app.soos.io/api/"
