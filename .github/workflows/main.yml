@@ -12,7 +12,7 @@ jobs:
       uses: soos-io/soos-sca-github-action@v1.1.0
       with:
         project_name: "sca-githubactions-local-test"
-        api_url: "https://qa-app.soos.io/api/"
+        api_url: "https://qa-api.soos.io/api/"
         client_id: ${{ secrets.SOOS_CLIENT_ID }}
         api_key: ${{ secrets.SOOS_API_KEY }}
   soos_dast_baseline_analysis:
@@ -26,7 +26,7 @@ jobs:
           api_key: ${{ secrets.SOOS_API_KEY }}
           project_name: "dast-githubactions-sarif-local-test"
           scan_mode: "baseline"
-          api_url: "https://qa-app.soos.io/api/"
+          api_url: "https://qa-api.soos.io/api/"
           target_url: "https://brokencrystals.com/"
           output_format: "sarif"
       - name: Upload SOOS DAST Report
