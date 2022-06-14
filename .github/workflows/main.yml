@@ -26,7 +26,7 @@ jobs:
           api_key: ${{ secrets.SOOS_API_KEY }}
           project_name: "dast-githubactions-sarif-local-test"
           scan_mode: "baseline"
-          api_url: "invalid url so it doesn't run https://qa-api.soos.io/api/"
+          api_url: "https://qa-api.soos.io/api/"
           target_url: "https://brokencrystals.com/"
           output_format: "sarif"
       - name: Upload SOOS DAST Report
