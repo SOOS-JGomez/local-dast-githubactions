@@ -11,7 +11,7 @@ jobs:
     - name: Run SOOS - Scan for vulnerabilities
       uses: soos-io/soos-sca-github-action@v1.1.0
       with:
-        project_name: "sca-githubactions-local-test"
+        project_name: "sca-another-branch-2"
         api_url: "https://qa-api.soos.io/api/"
         client_id: ${{ secrets.SOOS_CLIENT_ID }}
         api_key: ${{ secrets.SOOS_API_KEY }}
