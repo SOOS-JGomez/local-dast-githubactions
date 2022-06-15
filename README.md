@@ -1,2 +1,2 @@
 # local-dast-githubactions
-test 7
+test 8
