@@ -12,6 +12,5 @@ jobs:
       uses: soos-io/soos-sca-github-action@v1.1.0
       with:
         project_name: "mask-branch"
-        api_url: "https://qa-api.soos.io/api/"
         client_id: ${{ secrets.SOOS_CLIENT_ID }}
         api_key: ${{ secrets.SOOS_API_KEY }}
