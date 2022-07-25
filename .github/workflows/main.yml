@@ -9,11 +9,12 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - name: Run SOOS - Scan for vulnerabilities
-      uses: soos-io/soos-sca-github-action@v1.1.0
+      uses: soos-io/soos-sca-github-action@v1.2.0
       with:
         project_name: "sca-githubactions-local-test"
         client_id: ${{ secrets.SOOS_CLIENT_ID }}
         api_key: ${{ secrets.SOOS_API_KEY }}
+        api_url: "https://qa-api.soos.io/api/"
   soos_dast_baseline_analysis:
     name: SOOS DAST Baseline Analysis
     runs-on: ubuntu-latest
