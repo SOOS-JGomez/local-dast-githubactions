@@ -294,6 +294,11 @@
                             <artifactId>doxia-module-markdown</artifactId>
                             <version>1.8</version>
                         </dependency>
+                      <dependency>
+                          <groupId>dom4j</groupId>
+                          <artifactId>dom4j</artifactId>
+                          <version>1.5.2</version>
+                      </dependency>
                     </dependencies>
                 </plugin>
                 <!--This plugin's configuration is used to store Eclipse m2e settings only.
