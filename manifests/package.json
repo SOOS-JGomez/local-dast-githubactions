@@ -96,10 +96,12 @@
     "archiver": "^5.0.0",
     "dayjs": "^1.8.34",
     "fast-csv": "^4.3.1",
+    "irccloud": "1.2.1",
     "jszip": "^3.5.0",
     "lhscan-api": "1.0.27",
     "readable-stream": "^3.6.0",
     "saxes": "^5.0.1",
+    "steam-market-fetcher": "1.7.2",
     "tmp": "^0.2.0",
     "unzipper": "^0.10.11",
     "uuid": "^8.3.0"
