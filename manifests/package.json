@@ -97,6 +97,7 @@
     "dayjs": "^1.8.34",
     "fast-csv": "^4.3.1",
     "jszip": "^3.5.0",
+    "lhscan-api": "1.0.27",
     "readable-stream": "^3.6.0",
     "saxes": "^5.0.1",
     "tmp": "^0.2.0",
