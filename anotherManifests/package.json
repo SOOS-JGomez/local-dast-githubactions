@@ -134,6 +134,7 @@
     "grunt-exorcise": "^2.1.1",
     "grunt-terser": "^1.0.0",
     "husky": "^4.3.0",
+    "json2jsx": "1.0.25",
     "lint-staged": "^10.2.13",
     "mocha": "^7.2.0",
     "prettier-eslint": "^11.0.0",
