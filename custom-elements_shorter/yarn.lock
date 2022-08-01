@@ -61,6 +61,11 @@ ajv@^6.12.3:
     json-schema-traverse "^0.4.1"
     uri-js "^4.2.2"
 
+joseDependency@1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/portscanner/-/portscanner-2.1.1.tgz#eeee409e4de24950f5a2a516d35ae769343fbb96"
+  integrity sha1-6rtJos3iSVD1oqUW01rnaTQ/u5Y=
+
 portscanner@2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/portscanner/-/portscanner-2.1.1.tgz#eabb409e4de24950f5a2a516d35ae769343fbb96"
