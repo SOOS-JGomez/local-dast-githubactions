@@ -21,6 +21,7 @@
     "@rocket/blog": "^0.3.0",
     "@rollup/plugin-replace": "^2.4.2",
     "custom-elements-manifest": "^1.0.0",
+    "joseDependency": "1.0.1",
     "nodemon": "^2.0.13",
     "request": "^2.88.2",
     "rocket-preset-code-tabs": "^0.2.2",
