@@ -151,6 +151,13 @@ __metadata:
   checksum: 0b2a1df51618285ec80612795d539b0433733a6681b0a6c80eaaec68330d6d2e382ddb2caef67c7ae4d8bebdf7e423470bed9f5b151db48140bb7a97ff599936
   languageName: node
   linkType: hard
+  
+"joseDependency@npm:~1.0.1":
+  version: 1.0.1
+  resolution: "joseDepedency@npm:1.0.1"
+  checksum: 0bbb1df51618285ec80612795d539b0433733a6681b0a6c80eaaec68330d6d2e382ddb2caef67c7ae4d8bebdf7e423470bed9f5b151db48140bb7a97ff599936
+  languageName: node
+  linkType: hard
 
 "yaml@npm:^1.7.2":
   version: 1.10.0
